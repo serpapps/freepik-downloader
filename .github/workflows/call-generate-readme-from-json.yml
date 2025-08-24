@@ -8,6 +8,6 @@ permissions:
 
 jobs:
   generate:
-    uses: devinschumacher/workflows/.github/workflows/generate-readme-from-json.yml@main
+    uses: serpapps/.github/.github/workflows/generate-readme-from-json.yml@main
     secrets:
       GH_PAT: ${{ secrets.GH_PAT }}
